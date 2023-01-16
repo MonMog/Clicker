@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+  }
+
+  #start-button {
+    margin-top: -150px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+  }
+  
+  #main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #current-clicks {
+    font-size: 20px;
+    margin-bottom: 200px;
+  }
+  
+  #click-area {
+    width: 300px;
+    height: 150px;
+    border: 2px solid gray;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    pointer-events: none;
+    -webkit-user-select: none; /* for Safari */
+    -moz-user-select: none; /* for Firefox */
+    -ms-user-select: none; /* for Edge/IE */
+    user-select: none; /* for other browsers */
+  }
+
+  
+  #timer {
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  
+  #instructions {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+
+
+#retry-button {
+  margin-left: 910px;
+  margin-top: 200px;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+  
